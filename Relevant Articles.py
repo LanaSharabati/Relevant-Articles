@@ -40,7 +40,17 @@ def keywords(my_dict):####
                 y.append(str(j))
     return(y)
 
-# def relavent():
+def relavent(keyword1,keyword2,file):
+    c=0
+    for i in range(len(keyword1)):
+        for j in range(len(keyword2)):
+            if keyword1[i] == keyword2[j]:
+                c = c+1
+    return [c,file]
+        
+        
+    
+    
 os.chdir('articles')    
 "'Article0.txt'"    
 h2 =[]
@@ -54,12 +64,16 @@ word_list = list_(input_text)
 a = histogram(word_list) 
 h2.append(a)
 k= keywords(a)
-m2.append(k)
+
+
   
 h =[]
 m =[]
+r=[]
 # os.chdir('articles') 
 my_files = glob.glob('*.txt')
+
+my_files.remove(file_read)
 print(my_files)
 for i in range(len(my_files)):
     if my_files[i] != file_read:
@@ -71,5 +85,15 @@ for i in range(len(my_files)):
         k= keywords(a)
         m.append(k)
     
+
+for i in range(len(m)):
+    re = relavent(k,m[i],my_files[i])
+    r.append(re)
     
-   
+q=[]
+maxi = max(r)
+for i in range(len(r)):
+    if maxi[0] == r[i][0]:
+        q.append(r[i][1])   
+    
+print("articles with the most intersection",q)   
