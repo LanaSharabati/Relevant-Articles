@@ -1,0 +1,45 @@
+Australia’s ability to compete with other nations in a technology-enabled world is declining, according to a report recently released by the Committee for Economic Development of Australia (CEDA).
+
+In 2019 Australia dropped to 14th on the global league table of digital competitiveness, down from 13th last year and ninth in 2015.
+
+The results, from the World Digital Competitiveness rankings compiled by the Swiss-based International Institute for Management Development, show that Australia is becoming complacent in areas such as science education, information and communication infrastructure, and digital literacy.
+
+What is digital competitiveness?
+Digital competitiveness is a standardised measure of a country’s ability to develop cutting-edge digital technologies as well as its willingness to invest in research and development (R&D) and promote digital literacy training to create new knowledge, all of which are key drivers for economic development.
+Proactive countries put money and effort into this process, regarding it as nation-building that hedges against future uncertainty. These countries score highly in the rankings. Countries further down the list tend to be reactive, sitting back and letting others go first.
+
+In what areas are we behind?
+The overall digital competitiveness score has three components: knowledge, technology, and future readiness.
+
+Australia’s scores across these categories show we need to try much harder in future readiness. Our scores are also falling in the sub-categories of adaptive attitudes, business agility, and IT integration.
+
+In a field of 63 countries, Australia comes 44th on current digital and technological skills and employers’ willingness to train their staff in these areas.
+Which countries are doing it right?
+The top ten countries in 2019 are the United States, Singapore, Sweden, Denmark, Switzerland, Netherlands, Finland, Hong Kong, Norway, and South Korea.
+
+Looking at the strategic approach of the top five, all emphasise knowledge generation, but beyond that there are different approaches to digital competitiveness. The US and Sweden put equal emphasis on knowledge generation, creating a conducive environment for technology development, and fostering a willingness to innovate. Singapore, Denmark and Switzerland each place heavier emphasis on one or two of the factors.
+
+More STEM graduates
+At 53rd place, Australia ranks abysmally in the proportion of our university graduates in science and mathematics - the people who do research and development now and will continue to do it in the future. Our universities are among the best in the world, so that is not the problem. If jobs for these graduates existed, universities would be meeting the demand.
+Australia’s information and communication technologies, including internet infrastructure, also score very poorly at 54th. This will not surprise the many Australian businesses and individuals who put up with slow, patchy internet connections. With more computing services and data moving into the cloud, fast internet is essential.
+
+The news is not all bad though. Australia rates highly as a desirable destination for international students. It also scores well on digital access to government services, and ease of starting a business.
+
+Why is Australia slipping?
+Australia has grown complacent in certain areas, and we have been unwilling to invest sufficiently in building our digital capability in the areas mentioned. “Sufficient” is the key word. The fact that we are falling behind other countries means we cannot say we are investing enough.
+
+The CEDA report indicates that one key reason for the investment shortfall is the disparity between the public’s and employers’ perspectives on how much it is needed. Industry sees a greater need than the general public does, but government policy tends to align with public sentiment for electoral reasons.
+
+Funding is limited and there are many voices competing for a share of government spending. It is the squeaky wheel that gets the oil.
+
+Building digital capability
+Nation-building projects at scale need a coordinated approach across public and private sectors. Building the physical infrastructure to meet future needs is no different in principle to building the nation’s digital capabilities, which includes creating the communication technology, the means to develop new knowledge and ways of applying it to good effect. This is no less important than roads, power stations and hospitals for the nation’s future.
+
+A national conversation
+Australia needs to have a long conversation in national, state and local forums about the importance of investing in our digital future. We need to talk about all the ways R&D can benefit the Australian community, and why businesses need to embrace cutting-edge technology.
+
+Read more: Around 50% of homes in Sydney, Melbourne and Brisbane have the oldest NBN technology
+
+If we don’t get consensus on staying competitive we will fall further and further behind as more proactive countries accelerate their efforts. In time the economy will suffer, unemployment will rise and quality of life decline. It is no legacy to leave our children.
+
+We are indeed a lucky country with our resources, but that will take us only so far in the 21st century. For the sake of future generations we have to make a new kind of luck and level up our digital game.

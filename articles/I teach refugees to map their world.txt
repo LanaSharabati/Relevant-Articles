@@ -1,0 +1,37 @@
+I first visited the Zaatari refugee camp in early 2015. Located in northern Jordan, the camp is home to more than 80,000 Syrian refugees. I was there as part of a research study on refugee camp wireless and information infrastructure.
+
+It’s one thing to read about refugees in the news. It’s a whole different thing to actually go visit a camp. I saw people living in metal caravans, mixed with tents and other materials to create a sense of home. Many used improvised electrical systems to keep the power going. People are rebuilding their lives to create a better future for their families and themselves, just like any of us would if faced with a similar situation.
+
+As a geographer, I was quickly struck by how geographically complex Zaatari camp was. The camp management staff faced serious spatial challenges. By “spatial challenges,” I mean issues that any small city might face, such as keeping track of the electrical grid; understanding where people live within the camp; and locating other important resources, such as schools, mosques and health centers. Officials at Zaatari had some maps of the camp, but they struggled to keep up with its ever-changing nature.
+
+An experiment I launched there led to up-to-date maps of the camp and, I hope, valuable training for some of its residents.
+
+The power of maps
+Like many other refugee camps, Zaatari developed quickly in response to a humanitarian emergency. In rapid onset emergencies, mapping often isn’t as high of a priority as basic necessities like food, water and shelter.
+
+However, my research shows that maps can be an invaluable tool in a natural disaster or humanitarian crisis. Modern digital mapping tools have been essential for locating resources and making decisions in a number of crises, from the 2010 earthquake in Haiti to the refugee influx in Rwanda.
+
+This got me thinking that the refugees themselves could be the best people to map Zaatari. They have intimate knowledge of the camp’s layout, understand where important resources are located and benefit most from camp maps.
+
+With these ideas in mind, my lab teamed up with the United Nations High Commissioner for Refugees and Al-Balqa and Princess Sumaya universities in Jordan.
+
+Modern maps are often made with a technology known as Geographic Information Systems, or GIS. Using funding from the UNHCR Innovation Fund, we acquired the computer hardware to create a GIS lab. From corporate partner Esri, we were obtained low-cost, professional GIS software.
+Over a period of about 18 months, we trained 10 Syrian refugees. Students in the RefuGIS class ranged in age from 17 to 60. Their backgrounds from when they lived in Syria ranged from being a math teacher to a tour operator to a civil engineer. I was extremely fortunate that one of my students, Yusuf Hamad, spoke fluent English and was able translate my instructions into Arabic for the other students.
+
+We taught concepts such as coordinate systems, map projections, map design and geographic visualization; we also taught how to collect spatial data in the field using GPS. The class then used this knowledge to map places of interest in the camp, such as the locations of schools, mosques and shops.
+
+The class also learned how to map data using mobile phones. The data has been used to update camp reference maps and to support a wide range of camp activities.
+
+I made a particular point to ensure the class could learn how to do these tasks on their own. This was important: No matter how well-intentioned a technological intervention is, it will often fall apart if the displaced community relies completely on outside people to make it work.
+
+As a teacher, this class was my most satisfying educational experience. This was perhaps my finest group of GIS students across all the types of students I have taught over my 15 years of teaching. Within a relatively short amount of time, they were able to create professional maps that now serve camp management staff and refugees themselves.
+Jobs for refugees
+My experiences training refugees and humanitarian professionals in Jordan and Rwanda have made me reflect upon the broader possibilities that GIS can bring to the over 65 million refugees in the world today.
+
+It’s challenging for refugees to develop livelihoods at a camp. Many struggle to find employment after leaving.
+
+GIS could help refugees create a better future for themselves and their future homes. If people return to their home countries, maps – essential to activities like construction and transportation – can aid the rebuilding process. If they adopt a new home country, they may find they have marketable skills. The worldwide geospatial industry is worth an estimated US$400 billion and geospatial jobs are expected to grow over the coming years.
+
+Our team is currently helping some of the refugees get GIS industry certifications. This can further expand their career opportunities when they leave the camp and begin to rebuild their lives.
+
+Technology training interventions for refugees often focus on things like computer programming, web development and other traditional IT skills. However, I would argue that GIS should be given equal importance. It offers a rich and interactive way to learn about people, places and spatial skills – things that I think the world in general needs more of. Refugees could help lead the way.

@@ -1,0 +1,28 @@
+Facebook has announced that it is halting development on its Instagram Kids project. This follows reports that the social media giant had commissioned – and kept secret – internal research that found Instagram was detrimental to young people’s mental health.
+
+The study’s findings, not to mention the fact that they were withheld, have only bolstered the heavy criticism the project initially came in for. “Instagram for kids,” ran one headline early on, “the social media site no one asked for”.
+
+Quite who has asked for what, in information technology development, is an interesting question. In the late 1980s, research had already highlighted that the history of computers was arguably one of creating demand more than responding to need. And social media is no different: it has gone from being the thing we didn’t know we wanted to being embedded in all that we do. Research increasingly confirms it can be a source of harm too.
+
+Children are at the heart of this battle between usefulness and safety. They’re the future designers of our tech – they will inherit our messes – but they’re also using it right now. And they’re tech companies’ future customers. Head of Instagram Adam Mosseri has been quick to defend the value and importance of a kids’ version of the app. But can we trust big tech to give us what we actually need as opposed to manipulating us into consuming what they need to sell?
+
+The advent of usability
+The concept of user experience now dominates information technology thinking. But the earliest home computers were anything but useful, or usable, for the average person. That is primarily because they were still being designed for trained specialists: they assumed competence in whomever switched them on.
+
+From the early 1980s, parents were encouraged to embrace the educational potential of home computing. They saw the devices as a boost to their children’s learning and future employability. But this uptake in early devices was still more conceptual than practical.
+
+By the end of the 1980s, however, the idea of usability started to gain traction. IT design started focusing more on how average people might effectively and efficiently use their products, with computer scientists homing in on human-computer interaction and user-centered design.
+From user experience to user safety
+Technology, of course, now enables how we live, how we communicate, how we interact, how we work. Households are filled with devices and applications which are usable, useful and being used. Indeed, keeping devices and all they contain in use is central to IT design: the user is a customer and the tech is designed to nurture – sollicit, even – that custom.
+
+Figuring out how to provide a meaningful and relevant experience for someone using a digital product or service, from devices to social media platforms, is what is known as user experience design. Tech giants talk about meeting our expectations even before we know them ourselves. And the way designers know what we want before we want it comes down to the data they collect on us – and our children.
+
+A flurry of recent lawsuits, however, highlight the line, in terms of harm to the user, that such digital innovation driven by profit and shaped by our personal data has crossed. These include the case launched by the former children’s commissioner for England, Anne Longfield, against TikTok.
+
+Longfield’s case alleges that the video-sharing platform harvests the personal information of its under-age users for targeted advertising purposes: from date of birth, email and phone number to location data, religious or political beliefs and browsing history.
+
+The concern these days is that privacy is under threat because profits take precedence over safety.
+
+The usability movement which started in the late 1980s therefore now needs to make way for what computer scientists term usable security: human-centric design, where safety takes precedence. Our research shows that many online applications are not fit for use. They fail to find the balance between usability and security (and privacy).
+
+We need to further explore the potential of open-source designs – those not driven by profit – as alternatives. And we need to foster ethical awareness around technology in young minds: they are tomorrow’s programmers. As important as learning to code is understanding the ethical implications of what is being coded.

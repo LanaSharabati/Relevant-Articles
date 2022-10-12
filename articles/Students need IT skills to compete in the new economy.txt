@@ -1,0 +1,33 @@
+By 2026, employment in computer and information technology occupations is projected to grow 13 percent over what it was in 2016. Jobs in these fields will require skills in cloud computing, big data collection and storage, information security and more.
+
+As I argue in a paper in the Journal of Monetary Economics with Giovanni Gallipoli, these information technology – or IT – skills are increasingly required if you want a job with upward mobility and autonomy.
+
+A new “IT intensity” index that I developed illustrates this trend. Using data from the Bureau of Labor Statistics that measures tasks and skills across occupations, the index gauges how much occupations deal with information technology. I developed this IT intensity index as a labor economist who studies macroeconomic trends, policy and their interaction with individuals and labor markets.
+
+While the index is far from perfect, it allows us to distinguish between jobs that require more interaction with computers, whether it’s software engineering or coding.
+
+Increase in IT jobs
+Using our IT intensity index, together with data tables from the Occupation Employment Statistics program, I found that IT intensive occupations grew by 19.5 percent between 2004 and 2017, while less IT intensive occupations only grew by 2.4 percent. That’s more than eight times as large of a growth rate over the past decade.
+
+And yet, companies routinely complain about not being able to find enough workers. While the skills gap for digital and technical tasks is large, some researchers argue it is largest for cybersecurity.
+
+There is also concern about unmet demand for coordination and communication skills.
+
+The fact that so many prospective job candidates lack these skills might help explain the decline in labor force participation and stagnation of median hourly wages over the past few decades.
+On the other hand, new research suggests that the economic benefits of technological advancements – such as the development of artificial intelligence – do not always show up right away in national measurements of productivity growth. The research blames “implementation lags” in technology as a likely culprit.
+
+New models in higher education
+Educational institutions can help turn things around by equipping individuals with IT skills. Technology is changing at an increasing rate and a four-year degree may not give students the skills they need to remain competitive until retirement. Students today must become lifelong learners. To do that, universities need to provide their services to enough students to make an impact and focus on teaching relevant and tangible skills, particularly around data analysis, that are in increased demand. Several universities stand out as leaders in this regard.
+
+The standouts include Arizona State University and Georgia State University, which rank first and fourth, respectively, as the most innovative universities in the United States, according to U.S. News. These schools are actively using big data to help improve the delivery and scale of their services to improve student success rates.
+
+For example, GSU is using data analytics to help predict how at-risk students might do in certain courses. This enables better advising, which in turn helps improve completion rates. GSU has boosted its graduation rate to 54 percent in 2017 – up from 32 percent in 2003.
+
+Benefits of completion
+What does a college degree have to do with equipping students with IT skills? Using my measure of IT jobs, together with data from the American Community Survey between 2005 and 2016, I find that workers with a college degree are 36 percentage points more likely to work an IT job, controlling for other demographic factors, such as age, race and gender. Even if a student does not major in computer science, universities provide an environment to cultivate the skills needed to excel in IT jobs, which demand other interpersonal and noncognitive skills. For instance, other research that I’ve done suggests that students who double major in STEM and liberal arts tend to earn 10 percent higher annual salaries than their counterparts who double major in just one broad field.
+
+ASU is another example of a university that has significantly boosted the number of students it educates. Specifically, ASU enrolled nearly more than 98,000 students in 2016 – significantly more than the 73,000 it enrolled in 2012 – while simultaneously rising in international rankings.
+
+One of the things that ASU does particularly well is provide students with real-world experience. For example, ASU’s Edson Student Entrepreneur Initiative provides students with funding, mentoring and office space to co-found a startup.
+
+Encouraging students to engage with real-world problems not only directly cultivates their problem-solving skills, but also indirectly exposes them to the limitless possibilities of IT. Access to technology can help a startup to stay competitive. The same holds true for students.

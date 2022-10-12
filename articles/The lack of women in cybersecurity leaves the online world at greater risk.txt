@@ -1,0 +1,45 @@
+Women are highly underrepresented in the field of cybersecurity. In 2017, women’s share in the U.S. cybersecurity field was 14%, compared to 48% in the general workforce.
+
+The problem is more acute outside the U.S. In 2018, women accounted for 10% of the cybersecurity workforce in the Asia-Pacific region, 9% in Africa, 8% in Latin America, 7% in Europe and 5% in the Middle East.
+
+Women are even less well represented in the upper echelons of security leadership. Only 1% of female internet security workers are in senior management positions.
+
+I study online crime and security issues facing consumers, organizations and nations. In my research, I have found that internet security requires strategies beyond technical solutions. Women’s representation is important because women tend to offer viewpoints and perspectives that are different from men’s, and these underrepresented perspectives are critical in addressing cyber risks.
+
+Perception, awareness and bias
+The low representation of women in internet security is linked to the broader problem of their low representation in the science, technology, engineering and mathematics fields. Only 30% of scientists and engineers in the U.S. are women.
+
+The societal view is that internet security is a job that men do, though there is nothing inherent in gender that predisposes men to be more interested in or more adept at cybersecurity. In addition, the industry mistakenly gives potential employees the impression that only technical skills matter in cybersecurity, which can give women the impression that the field is overly technical or even boring.
+
+Women are also generally not presented with opportunities in information technology fields. In a survey of women pursuing careers outside of IT fields, 69% indicated that the main reason they didn’t pursue opportunities in IT was because they were unaware of them.
+
+Organizations often fail to try to recruit women to work in cybersecurity. According to a survey conducted by IT security company Tessian, only about half of the respondents said that their organizations were doing enough to recruit women into cybersecurity roles.
+
+Gender bias in job ads further discourages women from applying. Online cybersecurity job ads often lack gender-neutral language.
+
+Good security and good business
+Boosting women’s involvement in information security makes both security and business sense. Female leaders in this area tend to prioritize important areas that males often overlook. This is partly due to their backgrounds. Forty-four percent of women in information security fields have degrees in business and social sciences, compared to 30% of men.
+
+Female internet security professionals put a higher priority on internal training and education in security and risk management. Women are also stronger advocates for online training, which is a flexible, low-cost way of increasing employees’ awareness of security issues.
+
+Female internet security professionals are also adept at selecting partner organizations to develop secure software. Women tend to pay more attention to partner organizations’ qualifications and personnel, and they assess partners’ ability to meet contractual obligations. They also prefer partners that are willing to perform independent security tests.
+
+Increasing women’s participation in cybersecurity is a business issue as well as a gender issue. According to an Ernst & Young report, by 2028 women will control 75% of discretionary consumer spending worldwide. Security considerations like encryption, fraud detection and biometrics are becoming important in consumers’ buying decisions. Product designs require a trade-off between cybersecurity and usability. Female cybersecurity professionals can make better-informed decisions about such trade-offs for products that are targeted at female customers.
+
+Attracting women to cybersecurity
+Attracting more women to cybersecurity requires governments, nonprofit organizations, professional and trade associations and the private sector to work together. Public-private partnership projects could help solve the problem in the long run.
+One example is Israel’s Shift community, previously known as the CyberGirlz program, which is jointly financed by the country’s Defense Ministry, the Rashi Foundation and Start-Up Nation Central. It identifies high school girls with aptitude, desire and natural curiosity to learn IT and and helps them develop those skills.
+
+The girls participate in hackathons and training programs, and get advice, guidance and support from female mentors. Some of the mentors are from elite technology units of the country’s military. The participants learn hacking skills, network analysis and the Python programming language. They also practice simulating cyber-attacks to find potential vulnerabilities. By 2018, about 2,000 girls participated in the CyberGirlz Club and the CyberGirlz Community.
+
+In 2017, cybersecurity firm Palo Alto Networks teamed up with the Girl Scouts of the USA to develop cybersecurity badges. The goal is to foster cybersecurity knowledge and develop interest in the profession. The curriculum includes the basics of computer networks, cyberattacks and online safety.
+
+Professional associations can also foster interest in cybersecurity and help women develop relevant knowledge. For example, Women in Cybersecurity of Spain has started a mentoring program that supports female cybersecurity professionals early in their careers.
+
+Some industry groups have collaborated with big companies. In 2018, Microsoft India and the Data Security Council of India launched the CyberShikshaa program in order to create a pool of skilled female cybersecurity professionals.
+
+Some technology companies have launched programs to foster women’s interest in and confidence to pursue internet security careers. One example is IBM Security’s Women in Security Excelling program, formed in 2015.
+
+Attracting more women to the cybersecurity field requires a range of efforts. Cybersecurity job ads should be written so that female professionals feel welcome to apply. Recruitment efforts should focus on academic institutions with high female enrollment. Corporations should ensure that female employees see cybersecurity as a good option for internal career changes. And governments should work with the private sector and academic institutions to get young girls interested in cybersecurity.
+
+Increasing women’s participation in cybersecurity is good for women, good for business and good for society.

@@ -1,0 +1,38 @@
+Waves of asylum seekers emerging from conflict zones in Myanmar, Syria, Sudan, Iraq, Yemen and elsewhere are expected to add more than one million people to global resettlement needs this year.
+
+These refugees face a world of closing doors, but they also offer economic opportunities and cultural enrichment to countries that welcome them. While some refugees are integrating well in regional Australia, others still face significant challenges in the capital cities.
+
+As concerned researchers, we are interested in how information technologies could help refugees resettle. Our work with organisations assisting refugees has shown that having access to timely information about Australian life is essential.
+
+Read more: I teach refugees to map their world
+
+We’re in the early stages of building an ecosystem of digital services that aggregates and delivers this kind of information to refugees – and to the organisations involved in supporting, employing, educating and caring for them. To guide our work, and avoid reinventing the wheel, we’ve looked at comparable experiences in Germany, which has a high intake of refugees.
+Information chaos
+In Germany, there are a number of national and international agencies that provide assistance for refugees, each with regulations and responsibilities that differ from region to region. Accessing basic services, such as the internet, money transfer, health care and schooling, presents a new challenge to already traumatised people.
+
+The information refugees need is distributed among asylum counsellors, social assistance offices, youth welfare offices, local non-government organisations, volunteers and more. In some cases, this information is quickly outdated.
+Getting access to the right information in a timely manner is difficult given the multitude of information sources, language barriers and geographical complications. This situation encourages new refugees to seek information from those who have arrived earlier, leading to the spread of outdated or misinterpreted information.
+
+Going mobile
+One difference between this refugee crisis compared to earlier ones is the ubiquity of information technology. Because the overwhelming majority of refugees have access to smartphones, a number of mobile initiatives have emerged to provide support.
+
+Hackathon volunteers in Germany built a mobile guide for refugees called Moin, as well as a tool that helps refugees with administrative processes called bureaucrazy. Unfortunately, these apps required volunteers to keep the information up to date, which was challenging over an extended period.
+
+Still, some initiatives have produced sustainable outcomes by eliminating the need for third-party updates. Instead, these apps allow information providers to update information themselves.
+
+Read more: How refugees overcome the odds to become entrepreneurs
+
+For example, the Integreat project is a mobile application for refugees living in a particular German municipality. It provides information on the asylum process, local points of contact and aspects of daily life. The municipality and local NGOs maintain Integreat’s information through a content management system accessible via web browsers.
+
+The platform’s design means it can easily be extended to other municipalities, which can mirror existing content and reuse translations into different languages. This further reduces the effort required to gather and maintain relevant information, providing a helpful addition to asylum programs.
+
+Housing and employment matchmaking
+While applications such as Integreat can help refugees during their first few months in the host country, things get more complicated when refugees try to relocate to permanent housing.
+
+In Germany, language barriers, high demand for apartments among locals and resistance from some property owners who don’t want to rent to refugees has made finding accommodation a significant problem. Some German municipalities invested a substantial effort to house refugees by contacting landlords directly.
+
+In some cases property owners would like to support refugees, but they do not know how to approach them. A digital platform that connects property owners and refugees, such as the Berlin-based digital platform Flüchtlinge-Willkommen (Refugees Welcome), could help alleviate such problems.
+
+Similar matchmaking services have been built to match German employers who have difficulty finding qualified employees with refugees who are looking for work. Workeer is available in Germany, and refugeetalent is a similar initiative operating in Australia.
+
+But matchmaking is only one side of the story. German and Australian labour regulations limit the options for refugees, who might not be legally eligible to work straight away or hold qualifications that aren’t recognised in their new homeland. So digital platforms should also offer information for employers and refugees on labour regulations, vocational training and how to transfer qualifications.
