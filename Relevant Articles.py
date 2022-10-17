@@ -87,12 +87,12 @@ def words_overlap_counter(keyword1,keyword2,file):
     Take two diffrent keywords from diffrent articles
     Return number of overlap words
     """
-    c=0
+    counter =0
     for i in range(len(keyword1)):
         for j in range(len(keyword2)):
             if keyword1[i] == keyword2[j]:
-                c = c+1
-    return [c,file]
+                counter = counter+1
+    return [counter,file]
 
 
 def the_Most_Intersection(keyword,keyword_list,files):  
@@ -105,15 +105,16 @@ def the_Most_Intersection(keyword,keyword_list,files):
     articles_overlap =[]
     for i in range(len(keyword_list)):
         number_overlap_word = words_overlap_counter(keyword,keyword_list[i],files[i])
+        # print(number_overlap_word[0])
         articles_overlap.append(number_overlap_word)
     
     relative_article_name =set()
-    maxi = max(articles_overlap)
-    if maxi[0] == 0: #no overlap words
+    overlap_max_number = max(articles_overlap)
+    if overlap_max_number[0] == 0: #no overlap words
         return("no relative article!!!!")      
     else:
         for i in range(len(articles_overlap)):
-            if maxi[0] == articles_overlap[i][0]:
+            if overlap_max_number[0] == articles_overlap[i][0]:
                 relative_article_name.add(articles_overlap[i][1]) 
         return relative_article_name
 
@@ -148,9 +149,7 @@ def main():
     print(*revalent, sep = "\n")  
     
    
-    for i in range(len(keywords)):
-        number_overlap_word = words_overlap_counter(main_article_keyword,keywords[i],list_of_article[i])
-        print(number_overlap_word[0])
+  
         
 
 
