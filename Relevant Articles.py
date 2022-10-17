@@ -149,29 +149,7 @@ def main():
     print(*revalent, sep = "\n")  
     
    
-  
-        
-
-
 main()  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-   
-    
-      
 
 
 # #convert to classes
@@ -196,6 +174,18 @@ main()
 # print("articles with the most intersection for",main_article_name)
 # revalent = the_Most_Intersection(main_article_keyword,keywords,list_of_article)
 # print(*revalent, sep = "\n")  
+
+
+
+
+
+
+        
+   
+    
+      
+
+
 
     
 
