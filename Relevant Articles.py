@@ -71,8 +71,9 @@ def article_keyword(my_dict):
     x=list(my_dict.values())
     x.sort(reverse=True)
     #Get rid of the number that repeats
-    x = [*set(x)]
+    
     x=x[:3] 
+    x = [*set(x)]
     keywords = []
     for i in x:
         for j in my_dict.keys():
@@ -108,15 +109,28 @@ def the_Most_Intersection(keyword,keyword_list,files):
     
     relative_article_name =set()
     maxi = max(articles_overlap)
-    if maxi[0] != 0:
-       for i in range(len(articles_overlap)):
-           if maxi[0] == articles_overlap[i][0]:
-               relative_article_name.add(articles_overlap[i][1]) 
-       return relative_article_name
+    if maxi[0] == 0: #no overlap words
+        return("no relative article!!!!")      
     else:
-       return("no relative article!!!!")
+        for i in range(len(articles_overlap)):
+            if maxi[0] == articles_overlap[i][0]:
+                relative_article_name.add(articles_overlap[i][1]) 
+        return relative_article_name
 
 
+def main_article(list_of_article,keywords):
+    """
+    return main article name and its keywords
+    """
+    print(*list_of_article, sep = "\n")    
+    main_article_number = int(input("Enter the number of article you want to find it relevants \n"))
+    main_article_keyword = keywords[main_article_number-1]
+    main_article_name = list_of_article[main_article_number-1]
+    keywords.remove(main_article_keyword)
+    list_of_article.remove(main_article_name)
+    return main_article_name,main_article_keyword
+    
+        
 def main():
     list_of_article = article_name_list()
     keywords = []
@@ -126,20 +140,18 @@ def main():
         article_dictionary = histogram(word_lists(article_text))
         keyword = article_keyword(article_dictionary)
         keywords.append(keyword)
-            
-    print(*list_of_article, sep = "\n")    
-    main_article_number = int(input("Enter the number of article you want to find it relevants \n"))
-
-
-    main_article_keyword = keywords[main_article_number-1]
-    main_article_name = list_of_article[main_article_number-1]
-    keywords.remove(main_article_keyword)
-    list_of_article.remove(main_article_name)
-
+  
+    main_article_name,main_article_keyword = main_article(list_of_article,keywords)
 
     print("Articles with the most intersection for",main_article_name)
     revalent = the_Most_Intersection(main_article_keyword,keywords,list_of_article)
     print(*revalent, sep = "\n")  
+    
+   
+    for i in range(len(keywords)):
+        number_overlap_word = words_overlap_counter(main_article_keyword,keywords[i],list_of_article[i])
+        print(number_overlap_word[0])
+        
 
 
 main()  
