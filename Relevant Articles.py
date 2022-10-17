@@ -1,28 +1,34 @@
 import glob
 import os
-'''
-to work in make user enter number of keyword find all the
-keyword then make the user enter article number
-update irrelevant words
-update all the code classes and add documentation
-'''
-def article_name_list():
-    os.chdir('articles') #have problem here solve it!!!
-    article_Files = glob.glob('*.txt')
-    return article_Files
-    
-def read_File(article_Files):
-    input_texts =[]
-    for i in range(len(article_Files)):
-        print(i+1,article_Files[i])
-        file = open(article_Files[i])
-        input_text = file.read()
-        input_text = input_text.lower()
-        input_texts.append(input_text)
-    return input_texts
+
+
+def article_name_list(folder_name ='articles'):
+    """
+    Return a list  of all files name
+    in 'articles' folder
+    """
+    os.chdir(folder_name) 
+    articles_name = glob.glob('*.txt')
+    return articles_name
+ 
+   
+def read_File(files_name):
+    """
+    Open and read  files
+    Return the text in file, converted 
+    to lowercase
+    """
+    file = open(files_name)
+    input_text = file.read()
+    input_text = input_text.lower()
+    return input_text
 
 
 def word_lists(input_text):
+    """
+    Get rid of irrelevant words 
+    Return list of the words in file text
+    """
     irrelevant_words = {".", "\n", 'the',"what", "and",
     "is", "was", "he", "at", "to", "for", "can",'of', 'in'
     , 'also', 'after',"a",'are','we','as', 'our','on', 'that','it','by',
@@ -30,48 +36,56 @@ def word_lists(input_text):
     ,'from','they', 'you','not','most','her', 'she','his','--','mr','told',
     '-','mr.','were','had','how','while','said','had','many','its','i','my'
     ,'an','who','about','would', 'so','which','says','when', 'just','us','want'
-    ,'more','get','use','some','than','then','made',
-    'because','such',
-    'him','go',
-    'over'
-    'me'}
-    
+    ,'more','get','use','some','than','then','made',"didn't",'into',
+    'keep','because','such','into','come','new','if','these','all','one',
+    'two',
+    'me',
+    'him','go','over','me'}
     word_list = input_text.split(" ")
     for iw in irrelevant_words:
         for j in range(len(word_list)):
             if word_list[j] == iw:
                 word_list[j] = ""
-        # input_text = input_text.replace(iw, "")
     return word_list
 
 
 def histogram(word_list):
-   word_histogram = {
-   }
-   for word in word_list:
+    """
+    Return histogram for each file that have 
+    the words and it repetitions
+    """
+    word_histogram = {}
+    for word in word_list:
        if word not in word_histogram.keys():
            word_histogram[word] = 1
        else:
            word_histogram[word] = word_histogram[word] + 1
-   word_histogram.pop("")
-   return word_histogram
+    word_histogram.pop("")
+    return word_histogram
 
 
 def article_keyword(my_dict):
+    """
+    Return at least three keyword for the articles
+    """
     x=list(my_dict.values())
     x.sort(reverse=True)
-    x=x[:4]
+    #Get rid of the number that repeats
     x = [*set(x)]
+    x=x[:3] 
     keywords = []
     for i in x:
-       
         for j in my_dict.keys():
             if(my_dict[j]==i):
                 keywords.append(j)
     return keywords
 
 
-def relavent(keyword1,keyword2,file):
+def words_overlap_counter(keyword1,keyword2,file):
+    """
+    Take two diffrent keywords from diffrent articles
+    Return number of overlap words
+    """
     c=0
     for i in range(len(keyword1)):
         for j in range(len(keyword2)):
@@ -80,51 +94,101 @@ def relavent(keyword1,keyword2,file):
     return [c,file]
 
 
-def the_Most_Intersection(keyword1,keyword2,files):##problem!!   
-    r=[]
-    for i in range(len(keyword2)):
-        re = relavent(keyword1,keyword2[i],files[i])
-        r.append(re)
+def the_Most_Intersection(keyword,keyword_list,files):  
+    """
+    Take the main article keyword and compare it with other
+    articles keywords and take the most revalent articles by compute
+    the max number of overlap word for all articles 
+    and return all the article have the max value overlap
+    """
+    articles_overlap =[]
+    for i in range(len(keyword_list)):
+        number_overlap_word = words_overlap_counter(keyword,keyword_list[i],files[i])
+        articles_overlap.append(number_overlap_word)
     
-    q=[]
-    maxi = max(r)
+    relative_article_name =set()
+    maxi = max(articles_overlap)
     if maxi[0] != 0:
-       for i in range(len(r)):
-           if maxi[0] == r[i][0]:
-               q.append(r[i][1]) 
-       return q
+       for i in range(len(articles_overlap)):
+           if maxi[0] == articles_overlap[i][0]:
+               relative_article_name.add(articles_overlap[i][1]) 
+       return relative_article_name
     else:
        return("no relative article!!!!")
+
+
+def main():
+    list_of_article = article_name_list()
+    keywords = []
+    # this loop read the files and extract the keywords
+    for i in range(len(list_of_article)):
+        article_text = read_File(list_of_article[i])
+        article_dictionary = histogram(word_lists(article_text))
+        keyword = article_keyword(article_dictionary)
+        keywords.append(keyword)
+            
+    print(*list_of_article, sep = "\n")    
+    main_article_number = int(input("Enter the number of article you want to find it relevants \n"))
+
+
+    main_article_keyword = keywords[main_article_number-1]
+    main_article_name = list_of_article[main_article_number-1]
+    keywords.remove(main_article_keyword)
+    list_of_article.remove(main_article_name)
+
+
+    print("Articles with the most intersection for",main_article_name)
+    revalent = the_Most_Intersection(main_article_keyword,keywords,list_of_article)
+    print(*revalent, sep = "\n")  
+
+
+main()  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         
    
     
       
 
 
-#convert to classes
-list_of_article = article_name_list()
-article_texts = read_File(list_of_article)
-main_article_number = int(input("enter the number of article you want to find it relevants"))
-main_article = article_texts[main_article_number-1]
-main_article_name = list_of_article[main_article_number-1]
-article_texts.remove(main_article)
-list_of_article.remove(main_article_name)
+# #convert to classes
+# list_of_article = article_name_list()
+# article_texts = read_File(list_of_article)
+# keywords = []
+# for i in range(len(article_texts)):
+#     article_dictionary = histogram(word_lists(article_texts[i]))
+#     keyword = article_keyword(article_dictionary)
+#     keywords.append(keyword)
+    
+# print(*list_of_article, sep = "\n")    
+# main_article_number = int(input("enter the number of article you want to find it relevants"))
 
 
+# main_article_keyword = keywords[main_article_number-1]
+# main_article_name = list_of_article[main_article_number-1]
+# keywords.remove(main_article_keyword)
+# list_of_article.remove(main_article_name)
 
 
-main_article_dictionary = histogram(word_lists(main_article))
-main_keyword = article_keyword(main_article_dictionary)
-# find the histograme for each file text
-keywords = []
-for i in range(len(article_texts)):
-    article_dictionary = histogram(word_lists(article_texts[i]))
-    keyword = article_keyword(article_dictionary)
-    keywords.append(keyword)
+# print("articles with the most intersection for",main_article_name)
+# revalent = the_Most_Intersection(main_article_keyword,keywords,list_of_article)
+# print(*revalent, sep = "\n")  
+
     
 
- 
+
     
-print("articles with the most intersection",the_Most_Intersection(main_keyword,keywords,list_of_article)   )    
 
  
