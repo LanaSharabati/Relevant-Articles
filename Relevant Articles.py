@@ -37,10 +37,8 @@ def word_lists(input_text):
     '-','mr.','were','had','how','while','said','had','many','its','i','my'
     ,'an','who','about','would', 'so','which','says','when', 'just','us','want'
     ,'more','get','use','some','than','then','made',"didn't",'into',
-    'keep','because','such','into','come','new','if','these','all','one',
-    'two',
-    'me',
-    'him','go','over','me'}
+    'because','such','into','come','new','if','these','all','one',
+    'two','me','him','go','me'}
     word_list = input_text.split(" ")
     for iw in irrelevant_words:
         for j in range(len(word_list)):
@@ -71,7 +69,6 @@ def article_keyword(my_dict):
     x=list(my_dict.values())
     x.sort(reverse=True)
     #Get rid of the number that repeats
-    
     x=x[:3] 
     x = [*set(x)]
     keywords = []
@@ -151,29 +148,7 @@ def main():
    
 main()  
 
-
-# #convert to classes
-# list_of_article = article_name_list()
-# article_texts = read_File(list_of_article)
-# keywords = []
-# for i in range(len(article_texts)):
-#     article_dictionary = histogram(word_lists(article_texts[i]))
-#     keyword = article_keyword(article_dictionary)
-#     keywords.append(keyword)
-    
-# print(*list_of_article, sep = "\n")    
-# main_article_number = int(input("enter the number of article you want to find it relevants"))
-
-
-# main_article_keyword = keywords[main_article_number-1]
-# main_article_name = list_of_article[main_article_number-1]
-# keywords.remove(main_article_keyword)
-# list_of_article.remove(main_article_name)
-
-
-# print("articles with the most intersection for",main_article_name)
-# revalent = the_Most_Intersection(main_article_keyword,keywords,list_of_article)
-# print(*revalent, sep = "\n")  
+ 
 
 
 
