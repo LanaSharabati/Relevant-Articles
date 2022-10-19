@@ -12,10 +12,10 @@ def article_name_list(folder_name ='articles'):
     return articles_name
  
    
-def read_File(files_name):
+def read_file(files_name):
     """
     Open and read  files
-    Return the text in file, converted 
+    Return the texts converted 
     to lowercase
     """
     file = open(files_name)
@@ -92,11 +92,9 @@ def words_overlap_counter(keyword1,keyword2,file):
     return [counter,file]
 
 
-def the_Most_Intersection(keyword,keyword_list,files):  
+def the_most_intersection(keyword,keyword_list,files):  
     """
-    Take the main article keyword and compare it with other
-    articles keywords and take the most revalent articles by compute
-    the max number of overlap word for all articles 
+    compute the max number of overlap word for all articles 
     and return all the article have the max value overlap
     """
     articles_overlap =[]
@@ -134,7 +132,7 @@ def main():
     keywords = []
     # this loop read the files and extract the keywords
     for i in range(len(list_of_article)):
-        article_text = read_File(list_of_article[i])
+        article_text = read_file(list_of_article[i])
         article_dictionary = histogram(word_lists(article_text))
         keyword = article_keyword(article_dictionary)
         keywords.append(keyword)
@@ -142,7 +140,7 @@ def main():
     main_article_name,main_article_keyword = main_article(list_of_article,keywords)
 
     print("Articles with the most intersection for",main_article_name)
-    revalent = the_Most_Intersection(main_article_keyword,keywords,list_of_article)
+    revalent = the_most_intersection(main_article_keyword,keywords,list_of_article)
     print(*revalent, sep = "\n")  
     
    
