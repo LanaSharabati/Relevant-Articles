@@ -66,16 +66,15 @@ def article_keyword(my_dict):
     """
     Return at least three keyword for the articles
     """
-    x=list(my_dict.values())
-    x.sort(reverse=True)
-    #Get rid of the number that repeats
-    x=x[:3] 
-    x = [*set(x)]
+    sorted_dict = sorted(my_dict.items(), key=lambda x:x[1], reverse=True)
+    my_dict = dict(sorted_dict)    
     keywords = []
-    for i in x:
-        for j in my_dict.keys():
-            if(my_dict[j]==i):
-                keywords.append(j)
+    i = 0
+    for j in my_dict.keys():
+        x = list(my_dict.values())
+        if i < 7 and x[i] > 1:
+            keywords.append(j)
+        i = i +1 
     return keywords
 
 
@@ -102,15 +101,21 @@ def the_most_intersection(keyword,keyword_list,files):
         number_overlap_word = words_overlap_counter(keyword,keyword_list[i],files[i])
         # print(number_overlap_word[0])
         articles_overlap.append(number_overlap_word)
+    # print(articles_overlap)
     
-    relative_article_name =set()
+    relative_article_name =[]
+    
     overlap_max_number = max(articles_overlap)
-    if overlap_max_number[0] == 0: #no overlap words
+    
+    # print (overlap_max_number)
+    if overlap_max_number[0] <= 2 : #no overlap words
         return("no relative article!!!!")      
     else:
         for i in range(len(articles_overlap)):
-            if overlap_max_number[0] == articles_overlap[i][0]:
-                relative_article_name.add(articles_overlap[i][1]) 
+            if articles_overlap[i][0] >= 3:
+                relative_article_name.append(articles_overlap[i]) 
+                
+        # print(relative_article_name)
         return relative_article_name
 
 
@@ -118,7 +123,8 @@ def main_article(list_of_article,keywords):
     """
     return main article name and its keywords
     """
-    print(*list_of_article, sep = "\n")    
+    for i in range(len(list_of_article)):
+        print(i,list_of_article[i], sep = "\n")    
     main_article_number = int(input("Enter the number of article you want to find it relevants \n"))
     main_article_keyword = keywords[main_article_number-1]
     main_article_name = list_of_article[main_article_number-1]
@@ -126,7 +132,10 @@ def main_article(list_of_article,keywords):
     list_of_article.remove(main_article_name)
     return main_article_name,main_article_keyword
     
-        
+
+
+
+# 6 ,7 ,13  ,14 ,15,16,17,18,19
 def main():
     list_of_article = article_name_list()
     keywords = []
@@ -136,6 +145,7 @@ def main():
         article_dictionary = histogram(word_lists(article_text))
         keyword = article_keyword(article_dictionary)
         keywords.append(keyword)
+    print(keywords)
   
     main_article_name,main_article_keyword = main_article(list_of_article,keywords)
 
@@ -145,24 +155,3 @@ def main():
     
    
 main()  
-
- 
-
-
-
-
-
-
-        
-   
-    
-      
-
-
-
-    
-
-
-    
-
- 
